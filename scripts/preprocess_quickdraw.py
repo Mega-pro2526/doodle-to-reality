@@ -16,7 +16,7 @@ for cls in classes:
     data = np.load(file_path)
     
     # Limit samples per class to speed things up (optional)
-    data = data[:10000]
+    data = data[:15000]
     
     X.append(data)
     y.extend([label_map[cls]] * len(data))
