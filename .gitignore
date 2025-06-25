@@ -1,0 +1,38 @@
+# ─── Python ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+
+# ─── Flask ─────────────────────────────────────────
+instance/
+*.log
+
+# ─── Dataset & Models ──────────────────────────────
+data/
+models/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.ckpt
+
+# ─── Scripts ───────────────────────────────────────
+*.ipynb_checkpoints
+
+# ─── React ─────────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ─── OS/Editor/System Files ────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
